@@ -225,7 +225,7 @@ void do_send(osjob_t* j)
 
   CO2=myCCS811.getCO2();
   tVOC=myCCS811.getTVOC();
-  myCCS811.setBaseline(baseline);
+
   baseline=myCCS811.getBaseline();
 
   bmeForceRead();
